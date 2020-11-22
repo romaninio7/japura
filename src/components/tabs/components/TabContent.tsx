@@ -1,56 +1,8 @@
 import React from 'react';
 import { Skeleton } from 'antd';
-import styled from 'styled-components';
 import Chart from 'react-apexcharts';
 import { chartLineOptions, chartBarOptions } from './chartOptions';
-
-const Error = styled.div`
-	display: flex;
-	width: 100%;
-	text-align: center;
-	color: red;
-	font-size: 18px;
-	margin: 30px 0;
-	justify-content: center;
-`;
-
-const Container = styled.div`
-	display: flex;
-	justify-content: center;
-`;
-
-const ChartContainer = styled.div`
-	width: 70%;
-	padding: 20px;
-`;
-const KpiContainer = styled.div`
-	width: 30%;
-
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-`;
-const Kpi = styled.div`
-	display: flex;
-	flex-direction: column;
-	padding: 20px;
-	background: #cce5ff;
-	border-radius: 5px;
-`;
-
-const Title = styled.div`
-	text-align: center;
-	padding: 10px 20px;
-	font-size: 19px;
-	color: #6e75db;
-`;
-
-const Value = styled.div`
-	text-align: center;
-	padding: 10px 20px;
-	font-size: 44px;
-	color: #d640a2;
-`;
+import { Error, Container, ChartContainer, KpiContainer, Kpi, Title, Value } from './TabContent.styles';
 
 interface TabContentProps {
 	tab: number;
