@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Demo
+
+https://www.loom.com/share/384c60e08a77437d9bcef319b9ac53b2
+
 ## Available Scripts
 
 In the project directory, you can run:
